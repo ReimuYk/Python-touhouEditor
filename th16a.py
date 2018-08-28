@@ -3,6 +3,7 @@ from win32process import *
 from win32api import *
 from win32con import *
 import ctypes
+from tkinter import *
 
 life_addr = 0x4A57F4
 bomb_addr = 0x4A5800
